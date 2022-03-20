@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    background-color: #6c757d;
+    width: 100%;
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+
+#form-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+#form-box {
+    display: flex;
+    height: 70vh;
+    width: 80vw;
+    max-width: 1000px;
+    min-height: 500px;
+    border: 0px solid black;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    gap: 0vw;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;;
+    
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url("img/priscilla-du-preez-6gAgFo-JRPA-unsplash.jpg");
+    box-sizing: border-box;
+    padding: 0px;
+    height: 100%;
+    width: 40%;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+    width: 60%;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 30px;
+    gap: 20px;
+    overflow: scroll;
+}
+
+#description {
+    font-size: 16px;
+}
+
+#input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    
+
+}
+
+#first-column {
+    display: flex;
+    flex-direction: column;
+}
+
+#second-column {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#odin {
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10vh;
+    
+    height: 20vh;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 60px;
+    gap: 8px;
+}
+
+#odin-img {
+    height: 14vh;
+}
+
+#log-in {
+    font-size: 20px;
+}
+
+#splash-footer {
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
